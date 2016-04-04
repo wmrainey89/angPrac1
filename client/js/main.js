@@ -5,7 +5,7 @@ angular.module("app", ["ngRoute", "ngResource"])
     $routeProvider
     
     .when("/", {
-        templateUrl: "client/views/one.html",
+        templateUrl: "views/one.html",
         controller: "oneCtrl"
     })
     
@@ -20,7 +20,7 @@ angular.module("app", ["ngRoute", "ngResource"])
     })
     
     .when("/four", {
-        templateUrl: "client/views/four.html",
+        templateUrl: "views/four.html",
         controller: "fourCtrl"
     })
     
